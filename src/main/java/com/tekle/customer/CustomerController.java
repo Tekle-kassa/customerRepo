@@ -6,8 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-import static com.tekle.customer.CustomerDataAccessService.customers;
-
 @RestController
 public class CustomerController {
     private final CustomerService customerService;
